@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { CareerJourney } from "@/components/CareerJourney";
 import { Contact } from "@/components/Contact";
+import { DigitalTwinChat } from "@/components/DigitalTwinChat";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Navigation } from "@/components/Navigation";
@@ -31,6 +32,7 @@ export default function Home() {
         </ScrollReveal>
       </main>
       <Footer />
+      <DigitalTwinChat />
     </>
   );
 }
